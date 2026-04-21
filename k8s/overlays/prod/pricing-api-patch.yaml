@@ -12,3 +12,5 @@ spec:
           env:
             - name: ASPNETCORE_ENVIRONMENT
               value: Production
+            - name: RuleService__BaseUrl
+              value: http://rule-api
